@@ -1,7 +1,7 @@
 # Citrix-Health-Check
 First stab at daily email for citrix health.  I was asked to set something up so my team had a visual into citrix.  This is a work in progress, so for now it's ugly but does the job.  This does the following...<br>
 
-Connect to the ADC controller, query the status of the storefront servers and the age of SSL certs.<br>
+Connect to the ADC controller, query the status of the storefront servers and the age of SSL certs.  This is using NITRO...(https://docs.citrix.com/en-us/citrix-adc/current-release/nitro-api.html)<br>
 ![image](https://user-images.githubusercontent.com/16924934/206466831-ce6eb313-6420-4742-8be3-e217d8b0a88d.png)
 
   
